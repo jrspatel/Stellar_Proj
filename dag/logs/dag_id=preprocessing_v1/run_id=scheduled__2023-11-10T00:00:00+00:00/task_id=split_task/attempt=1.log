@@ -1,0 +1,56 @@
+[2023-11-11T03:25:19.670+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:25:19.677+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:25:19.677+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:25:19.686+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): split_task> on 2023-11-10 00:00:00+00:00
+[2023-11-11T03:25:19.691+0000] {standard_task_runner.py:57} INFO - Started process 239 to run task
+[2023-11-11T03:25:19.696+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'split_task', 'scheduled__2023-11-10T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpqjctflr2']
+[2023-11-11T03:25:19.700+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask split_task
+[2023-11-11T03:25:19.742+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [running]> on host d2c761eebca3
+[2023-11-11T03:25:19.822+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='split_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-10T00:00:00+00:00'
+[2023-11-11T03:25:21.667+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T03:25:21.686+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=split_task, execution_date=20231110T000000, start_date=20231111T032519, end_date=20231111T032521
+[2023-11-11T03:25:21.737+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T03:25:21.755+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T03:29:36.889+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:29:36.895+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:29:36.896+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:29:36.904+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): split_task> on 2023-11-10 00:00:00+00:00
+[2023-11-11T03:29:36.912+0000] {standard_task_runner.py:57} INFO - Started process 254 to run task
+[2023-11-11T03:29:36.916+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'split_task', 'scheduled__2023-11-10T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpjg7faw16']
+[2023-11-11T03:29:36.920+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask split_task
+[2023-11-11T03:29:36.969+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [running]> on host 9c8a8ec1a519
+[2023-11-11T03:29:37.037+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='split_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-10T00:00:00+00:00'
+[2023-11-11T03:29:38.848+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T03:29:38.863+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=split_task, execution_date=20231110T000000, start_date=20231111T032936, end_date=20231111T032938
+[2023-11-11T03:29:38.887+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T03:29:38.911+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T03:41:55.285+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:41:55.292+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:41:55.292+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:41:55.300+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): split_task> on 2023-11-10 00:00:00+00:00
+[2023-11-11T03:41:55.310+0000] {standard_task_runner.py:57} INFO - Started process 232 to run task
+[2023-11-11T03:41:55.327+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'split_task', 'scheduled__2023-11-10T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpwx1p2fi3']
+[2023-11-11T03:41:55.331+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask split_task
+[2023-11-11T03:41:55.404+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [running]> on host 27df91229c7e
+[2023-11-11T03:41:55.458+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='split_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-10T00:00:00+00:00'
+[2023-11-11T03:41:55.460+0000] {datapreprocessing.py:40} INFO - Splitting dataset...
+[2023-11-11T03:41:57.417+0000] {datapreprocessing.py:52} INFO - Dataset split.
+[2023-11-11T03:41:57.420+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T03:41:57.433+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=split_task, execution_date=20231110T000000, start_date=20231111T034155, end_date=20231111T034157
+[2023-11-11T03:41:57.460+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T03:41:57.478+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T04:44:18.637+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T04:44:18.642+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T04:44:18.643+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T04:44:18.651+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): split_task> on 2023-11-10 00:00:00+00:00
+[2023-11-11T04:44:18.659+0000] {standard_task_runner.py:57} INFO - Started process 231 to run task
+[2023-11-11T04:44:18.664+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'split_task', 'scheduled__2023-11-10T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmp9uya2hll']
+[2023-11-11T04:44:18.668+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask split_task
+[2023-11-11T04:44:18.725+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.split_task scheduled__2023-11-10T00:00:00+00:00 [running]> on host bb20688940fc
+[2023-11-11T04:44:18.785+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='split_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-10T00:00:00+00:00'
+[2023-11-11T04:44:18.786+0000] {datapreprocessing.py:39} INFO - Splitting dataset...
+[2023-11-11T04:44:21.015+0000] {datapreprocessing.py:51} INFO - Dataset split.
+[2023-11-11T04:44:21.018+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T04:44:21.041+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=split_task, execution_date=20231110T000000, start_date=20231111T044418, end_date=20231111T044421
+[2023-11-11T04:44:21.075+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T04:44:21.104+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,37 @@
+[2023-11-11T03:29:42.819+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.scaling_task manual__2023-11-11T03:29:35.415558+00:00 [queued]>
+[2023-11-11T03:29:42.825+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.scaling_task manual__2023-11-11T03:29:35.415558+00:00 [queued]>
+[2023-11-11T03:29:42.826+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:29:42.834+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): scaling_task> on 2023-11-11 03:29:35.415558+00:00
+[2023-11-11T03:29:42.840+0000] {standard_task_runner.py:57} INFO - Started process 397 to run task
+[2023-11-11T03:29:42.843+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'scaling_task', 'manual__2023-11-11T03:29:35.415558+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpyh4hjnvd']
+[2023-11-11T03:29:42.845+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask scaling_task
+[2023-11-11T03:29:42.878+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.scaling_task manual__2023-11-11T03:29:35.415558+00:00 [running]> on host 9c8a8ec1a519
+[2023-11-11T03:29:42.926+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='scaling_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-11T03:29:35.415558+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-11T03:29:35.415558+00:00'
+[2023-11-11T03:29:42.936+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/src/datapreprocessing.py", line 47, in scaling
+    dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/X_train.csv"))
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 583, in _read
+    return parser.read(nrows)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1704, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 814, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 875, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 850, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas/_libs/parsers.pyx", line 2029, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 18 fields in line 5099, saw 22
+
+[2023-11-11T03:29:42.944+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=preprocessing_v1, task_id=scaling_task, execution_date=20231111T032935, start_date=20231111T032942, end_date=20231111T032942
+[2023-11-11T03:29:42.951+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 17 for task scaling_task (Error tokenizing data. C error: Expected 18 fields in line 5099, saw 22
+; 397)
+[2023-11-11T03:29:42.975+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-11T03:29:42.991+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

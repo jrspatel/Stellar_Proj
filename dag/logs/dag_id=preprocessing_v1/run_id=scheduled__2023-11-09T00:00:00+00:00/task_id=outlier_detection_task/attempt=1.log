@@ -1,0 +1,58 @@
+[2023-11-11T03:25:30.594+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T03:25:30.599+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T03:25:30.599+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:25:30.606+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): outlier_detection_task> on 2023-11-09 00:00:00+00:00
+[2023-11-11T03:25:30.613+0000] {standard_task_runner.py:57} INFO - Started process 445 to run task
+[2023-11-11T03:25:30.615+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'outlier_detection_task', 'scheduled__2023-11-09T00:00:00+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmp5sm7jipr']
+[2023-11-11T03:25:30.618+0000] {standard_task_runner.py:85} INFO - Job 23: Subtask outlier_detection_task
+[2023-11-11T03:25:30.649+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [running]> on host d2c761eebca3
+[2023-11-11T03:25:30.696+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='outlier_detection_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-09T00:00:00+00:00'
+[2023-11-11T03:25:30.916+0000] {logging_mixin.py:154} WARNING - /opt/***/dags/src/datapreprocessing.py:77 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-11-11T03:25:32.133+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T03:25:32.148+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=outlier_detection_task, execution_date=20231109T000000, start_date=20231111T032530, end_date=20231111T032532
+[2023-11-11T03:25:32.175+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T03:25:32.185+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T03:42:09.198+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T03:42:09.203+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T03:42:09.204+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:42:09.211+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): outlier_detection_task> on 2023-11-09 00:00:00+00:00
+[2023-11-11T03:42:09.217+0000] {standard_task_runner.py:57} INFO - Started process 443 to run task
+[2023-11-11T03:42:09.221+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'outlier_detection_task', 'scheduled__2023-11-09T00:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpvuq0fxiz']
+[2023-11-11T03:42:09.224+0000] {standard_task_runner.py:85} INFO - Job 20: Subtask outlier_detection_task
+[2023-11-11T03:42:09.264+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [running]> on host 27df91229c7e
+[2023-11-11T03:42:09.325+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='outlier_detection_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-09T00:00:00+00:00'
+[2023-11-11T03:42:09.326+0000] {datapreprocessing.py:88} INFO - Eliminating outliers...
+[2023-11-11T03:42:09.575+0000] {logging_mixin.py:154} WARNING - /opt/***/dags/src/datapreprocessing.py:104 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-11-11T03:42:10.840+0000] {datapreprocessing.py:107} INFO - Outliers eliminated.
+[2023-11-11T03:42:10.842+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T03:42:10.866+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=outlier_detection_task, execution_date=20231109T000000, start_date=20231111T034209, end_date=20231111T034210
+[2023-11-11T03:42:10.925+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T03:42:10.945+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T04:44:32.646+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T04:44:32.652+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T04:44:32.652+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T04:44:32.659+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): outlier_detection_task> on 2023-11-09 00:00:00+00:00
+[2023-11-11T04:44:32.666+0000] {standard_task_runner.py:57} INFO - Started process 445 to run task
+[2023-11-11T04:44:32.670+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'outlier_detection_task', 'scheduled__2023-11-09T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmp95xzrnup']
+[2023-11-11T04:44:32.673+0000] {standard_task_runner.py:85} INFO - Job 22: Subtask outlier_detection_task
+[2023-11-11T04:44:32.717+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.outlier_detection_task scheduled__2023-11-09T00:00:00+00:00 [running]> on host bb20688940fc
+[2023-11-11T04:44:32.772+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='outlier_detection_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-09T00:00:00+00:00'
+[2023-11-11T04:44:32.774+0000] {datapreprocessing.py:87} INFO - Eliminating outliers...
+[2023-11-11T04:44:33.050+0000] {logging_mixin.py:154} WARNING - /opt/***/dags/src/datapreprocessing.py:100 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-11-11T04:44:34.590+0000] {datapreprocessing.py:103} INFO - Outliers eliminated.
+[2023-11-11T04:44:34.592+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T04:44:34.612+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=outlier_detection_task, execution_date=20231109T000000, start_date=20231111T044432, end_date=20231111T044434
+[2023-11-11T04:44:34.647+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T04:44:34.663+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,15 @@
+[2023-11-11T04:44:18.637+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.split_task manual__2023-11-11T04:44:16.584495+00:00 [queued]>
+[2023-11-11T04:44:18.643+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.split_task manual__2023-11-11T04:44:16.584495+00:00 [queued]>
+[2023-11-11T04:44:18.643+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T04:44:18.651+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): split_task> on 2023-11-11 04:44:16.584495+00:00
+[2023-11-11T04:44:18.659+0000] {standard_task_runner.py:57} INFO - Started process 230 to run task
+[2023-11-11T04:44:18.666+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'split_task', 'manual__2023-11-11T04:44:16.584495+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpwmenlmpk']
+[2023-11-11T04:44:18.670+0000] {standard_task_runner.py:85} INFO - Job 3: Subtask split_task
+[2023-11-11T04:44:18.725+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.split_task manual__2023-11-11T04:44:16.584495+00:00 [running]> on host bb20688940fc
+[2023-11-11T04:44:18.785+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='split_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-11T04:44:16.584495+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-11T04:44:16.584495+00:00'
+[2023-11-11T04:44:18.786+0000] {datapreprocessing.py:39} INFO - Splitting dataset...
+[2023-11-11T04:44:20.961+0000] {datapreprocessing.py:51} INFO - Dataset split.
+[2023-11-11T04:44:20.966+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T04:44:20.998+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=split_task, execution_date=20231111T044416, start_date=20231111T044418, end_date=20231111T044420
+[2023-11-11T04:44:21.030+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T04:44:21.056+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
