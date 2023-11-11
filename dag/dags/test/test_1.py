@@ -7,8 +7,10 @@ import numpy as np
 
 #checking the type of the columns
 def test_data_stats():
-    df = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/star_classification.csv"))
-    columns = df.columns
+    data_hash = "bce06389286124270180cc96bf116584"  # Replace with the actual hash
+    data_path = f"data/my_dataset.csv.{data_hash}.dvc"
+    dataset = pd.read_csv(data_path)
+    columns = dataset.columns
     print(columns)
     print(1)
     assert len(columns) == 18
@@ -29,12 +31,12 @@ def test_check_nan():
 
 def test_data_stats_1():
     df = data_stats()
-    df = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/star_classification.csv"))
     columns = df.columns
     assert len(columns) != 0
 
 
 def test_data_stats_3():
+    data_hash = "bce06389286124270180cc96bf116584"  # Replace with the actual hash
     df = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/star_classification.csv"))
     columns = df.columns
     assert len(columns) >= 0

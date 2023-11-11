@@ -78,3 +78,29 @@ pandas.errors.ParserError: Error tokenizing data. C error: Expected 18 fields in
 [2023-11-11T04:44:31.279+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=scaling_task, execution_date=20231109T000000, start_date=20231111T044427, end_date=20231111T044431
 [2023-11-11T04:44:31.315+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
 [2023-11-11T04:44:31.393+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T07:08:45.479+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.scaling_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T07:08:45.495+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.scaling_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T07:08:45.496+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T07:08:45.513+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): scaling_task> on 2023-11-09 00:00:00+00:00
+[2023-11-11T07:08:45.531+0000] {standard_task_runner.py:57} INFO - Started process 398 to run task
+[2023-11-11T07:08:45.565+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'scaling_task', 'scheduled__2023-11-09T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpkx0cw67l']
+[2023-11-11T07:08:45.577+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask scaling_task
+[2023-11-11T07:08:45.652+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.scaling_task scheduled__2023-11-09T00:00:00+00:00 [running]> on host bce5ad10b059
+[2023-11-11T07:08:45.726+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='scaling_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-09T00:00:00+00:00'
+[2023-11-11T07:08:52.195+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T07:08:52.341+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=scaling_task, execution_date=20231109T000000, start_date=20231111T070845, end_date=20231111T070852
+[2023-11-11T07:08:52.482+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T07:08:52.565+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T07:18:09.461+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.scaling_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T07:18:09.477+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.scaling_task scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-11T07:18:09.478+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T07:18:09.494+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): scaling_task> on 2023-11-09 00:00:00+00:00
+[2023-11-11T07:18:09.527+0000] {standard_task_runner.py:57} INFO - Started process 395 to run task
+[2023-11-11T07:18:09.554+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'scaling_task', 'scheduled__2023-11-09T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpxnq4unpa']
+[2023-11-11T07:18:09.558+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask scaling_task
+[2023-11-11T07:18:09.632+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.scaling_task scheduled__2023-11-09T00:00:00+00:00 [running]> on host 2c83865699e0
+[2023-11-11T07:18:09.731+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='scaling_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-09T00:00:00+00:00'
+[2023-11-11T07:18:24.796+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T07:18:24.881+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=scaling_task, execution_date=20231109T000000, start_date=20231111T071809, end_date=20231111T071824
+[2023-11-11T07:18:24.959+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T07:18:25.040+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

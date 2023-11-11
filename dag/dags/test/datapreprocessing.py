@@ -17,8 +17,8 @@ def data_stats():
     return variable_stats
 
 def split_dataset():
-    data_path = "data/my_dataset.csv"
-    data = pd.read_csv(data_path)
+
+    dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/star_classification.csv"))
     y = dataset['class']
     X = dataset.drop(columns = ['class'], axis=1)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, stratify = y, random_state=0)
@@ -75,8 +75,8 @@ def outlier_elimination():
     # Remove outliers
     dataset_no_outliers = X_train[~outliers]
     dataset_no_outliers['class'] = y
-
-    dataset_no_outliers.to_csv(os.path.join(os.path.dirname(__file__), "../data/X_train.csv"), index=False)
+    
+    dataset_no_outliers.to_csv(os.path.join(os.path.dirname(__file__), "../data/X_train_0.csv"), index=False)
     return dataset
 
 def test_outlier_elimination():
