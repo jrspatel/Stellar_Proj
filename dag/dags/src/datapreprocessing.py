@@ -9,15 +9,34 @@ import os
 from sklearn.model_selection import train_test_split
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import MinMaxScaler
+import logging
+from logging.handlers import TimedRotatingFileHandler
+from datetime import datetime
 
-  
+# Set up logging
+log_format = '%(asctime)s - %(levelname)s - %(message)s'
+date_format = '%Y-%m-%d %H:%M:%S'
+logging.basicConfig(level=logging.INFO, format=log_format, datefmt=date_format)
+
+
+log_filename = f"log_{datetime.now().strftime('%Y%m%d')}.log"
+file_handler = TimedRotatingFileHandler(log_filename, when='midnight', backupCount=5, encoding='utf-8')
+file_handler.setLevel(logging.INFO)
+file_handler.setFormatter(logging.Formatter(log_format, datefmt=date_format))
+
+logger = logging.getLogger("logger")
+logger.addHandler(file_handler)
+
 def data_stats():
+    logger.info("Calculating data statistics...")
     dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/star_classification.csv"))
+    
     variable_stats = dataset.describe()
+    logger.info("Data statistics calculated.")
     return variable_stats
 
 def split_dataset():
-
+    logger.info("Splitting dataset...")
     dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/star_classification.csv"))
     y = dataset['class']
     X = dataset.drop(columns = ['class'], axis=1)
@@ -29,9 +48,11 @@ def split_dataset():
     
     X_test.to_csv(os.path.join(os.path.dirname(__file__), "../data/X_test.csv"), index=False)
     path = "dags/data/star_classification.csv"
+    logger.info("Dataset split.")
     return 1
 
 def checking_NaN():
+    logger.info("Checking for NaN values...")
     dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/X_train.csv"))
     nan_rows = len(dataset[dataset.isna().any(axis=1)])
     
@@ -41,9 +62,12 @@ def checking_NaN():
         dataset = dataset.reset_index(drop = True)
     
     dataset.to_csv(os.path.join(os.path.dirname(__file__), "../data/X_train_nan.csv"), index=False)
+    logger.info("NaN values checked and handled.")
+
     return 1
 
 def scaling():
+    logger.info("Scaling dataset...")
     dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/X_train_nan.csv"))
     scaling = MinMaxScaler()
     y = dataset['class']
@@ -55,10 +79,12 @@ def scaling():
     X_train['class'] = y
     
     X_train.to_csv(os.path.join(os.path.dirname(__file__), "../data/X_train_scaling.csv"), index=False)
+    logger.info("Dataset scaled.")
     return 1
 
 def outlier_elimination():
-    # Assuming dataset is a pandas DataFrame
+
+    logger.info("Eliminating outliers...")
     dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/X_train_scaling.csv"))
     y = dataset['class']
     X_train = dataset.drop(['class'], axis=1)
@@ -77,6 +103,7 @@ def outlier_elimination():
     dataset_no_outliers['class'] = y
     
     dataset_no_outliers.to_csv(os.path.join(os.path.dirname(__file__), "../data/X_train_outlier.csv"), index=False)
+    logger.info("Outliers eliminated.")
     return 1
 
 def pcadatset(X_t):
@@ -88,7 +115,9 @@ def pcadatset(X_t):
         @Returns:
             X_train(Dataset): Dataset after removing few columns
     """
+    logger.info("Performing PCA on the dataset...")
     principal = PCA(n_components=3)
     principal.fit(X_t)
     x = principal.transform(X_t)
+    logger.info("PCA performed.")
     return x

@@ -1,0 +1,41 @@
+[2023-11-11T03:25:22.831+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:25:22.837+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:25:22.837+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:25:22.846+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): check_nan_task> on 2023-11-10 00:00:00+00:00
+[2023-11-11T03:25:22.853+0000] {standard_task_runner.py:57} INFO - Started process 286 to run task
+[2023-11-11T03:25:22.857+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'check_nan_task', 'scheduled__2023-11-10T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmph4zvq3qm']
+[2023-11-11T03:25:22.860+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask check_nan_task
+[2023-11-11T03:25:22.894+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [running]> on host d2c761eebca3
+[2023-11-11T03:25:22.940+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='check_nan_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-10T00:00:00+00:00'
+[2023-11-11T03:25:24.386+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T03:25:24.409+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=check_nan_task, execution_date=20231110T000000, start_date=20231111T032522, end_date=20231111T032524
+[2023-11-11T03:25:24.458+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T03:25:24.480+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T03:29:39.578+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:29:39.584+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:29:39.584+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:29:39.591+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): check_nan_task> on 2023-11-10 00:00:00+00:00
+[2023-11-11T03:29:39.598+0000] {standard_task_runner.py:57} INFO - Started process 302 to run task
+[2023-11-11T03:29:39.601+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'check_nan_task', 'scheduled__2023-11-10T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmpfvpea2uq']
+[2023-11-11T03:29:39.603+0000] {standard_task_runner.py:85} INFO - Job 10: Subtask check_nan_task
+[2023-11-11T03:29:39.632+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [running]> on host 9c8a8ec1a519
+[2023-11-11T03:29:39.679+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='check_nan_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-10T00:00:00+00:00'
+[2023-11-11T03:29:40.874+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T03:29:40.891+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=check_nan_task, execution_date=20231110T000000, start_date=20231111T032939, end_date=20231111T032940
+[2023-11-11T03:29:40.925+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T03:29:40.941+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-11-11T03:41:58.928+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:41:58.934+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [queued]>
+[2023-11-11T03:41:58.935+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-11T03:41:58.941+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): check_nan_task> on 2023-11-10 00:00:00+00:00
+[2023-11-11T03:41:58.948+0000] {standard_task_runner.py:57} INFO - Started process 279 to run task
+[2023-11-11T03:41:58.950+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'preprocessing_v1', 'check_nan_task', 'scheduled__2023-11-10T00:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/***_code.py', '--cfg-path', '/tmp/tmp96nt_2si']
+[2023-11-11T03:41:58.953+0000] {standard_task_runner.py:85} INFO - Job 9: Subtask check_nan_task
+[2023-11-11T03:41:58.995+0000] {task_command.py:416} INFO - Running <TaskInstance: preprocessing_v1.check_nan_task scheduled__2023-11-10T00:00:00+00:00 [running]> on host 27df91229c7e
+[2023-11-11T03:41:59.048+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Team 3' AIRFLOW_CTX_DAG_ID='preprocessing_v1' AIRFLOW_CTX_TASK_ID='check_nan_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-10T00:00:00+00:00'
+[2023-11-11T03:41:59.050+0000] {datapreprocessing.py:56} INFO - Checking for NaN values...
+[2023-11-11T03:42:00.727+0000] {datapreprocessing.py:66} INFO - NaN values checked and handled.
+[2023-11-11T03:42:00.731+0000] {python.py:194} INFO - Done. Returned value was: 1
+[2023-11-11T03:42:00.768+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=preprocessing_v1, task_id=check_nan_task, execution_date=20231110T000000, start_date=20231111T034158, end_date=20231111T034200
+[2023-11-11T03:42:00.794+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-11T03:42:00.838+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
