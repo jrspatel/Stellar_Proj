@@ -87,19 +87,15 @@ Create DAGs using Apache airflow to schedule the preprocessing at specific time 
 
 To keep of the track of the datasets that we work on, we use DVC. When we run the dvc cmd below it will store the datasets in the google cloud. The main advantage of using this is, we retrieve the older versions of the data. 
 
-
-
-
-
 #### Usage
 
 -	Create a python virtual environment
 -	Clone the github repository
 -	DVC commands: dvc init, dvc repro, dvc dag
--   setup airflow using docker, import airflow in your virtual environment
--   Navigate to your local host ####
--   Once the DAG completes its execution, check any output or artifacts produced by functions and tasks.
--   Execute pytest commands for verification
+- setup airflow using docker, import airflow in your virtual environment
+- Navigate to your local host ####
+- Once the DAG completes its execution, check any output or artifacts produced by functions and tasks.
+- Execute pytest commands for verification
 
 
 
