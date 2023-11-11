@@ -92,13 +92,10 @@ def outlier_elimination():
     Q3 = X_train.quantile(0.75)
     IQR = Q3 - Q1
 
-    # Define a threshold to identify outliers
     threshold = 1.0
 
-    # Identify outliers
     outliers = ((X_train < (Q1 - threshold * IQR)) | (X_train > (Q3 + threshold * IQR))).any(axis=1)
 
-    # Remove outliers
     dataset_no_outliers = X_train[~outliers]
     dataset_no_outliers['class'] = y
     

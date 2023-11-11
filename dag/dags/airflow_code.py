@@ -45,8 +45,6 @@ with DAG(
         task_id = 'stats_task',
         python_callable = data_stats,
         provide_context=True,
-        
-        # In split_task
 
         dag = dag
     )
@@ -55,8 +53,6 @@ with DAG(
         task_id = 'scaling_task',
         python_callable = scaling,
         provide_context=True,
-        
-        # In split_task
 
         dag = dag
     )
@@ -66,12 +62,10 @@ with DAG(
         python_callable = outlier_elimination,
         provide_context=True,
         
-        # In split_task
 
         dag = dag
     )
 
-    #import_data_task >> split_task
 
     split_task >> check_nan_task >> stats_task >> scaling_task >> outlier_detection_task
     # split_task >> stats_task
