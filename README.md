@@ -88,8 +88,7 @@ Create DAGs using Apache airflow to schedule the preprocessing at specific time 
 To keep of the track of the datasets that we work on, we use DVC. When we run the dvc cmd below it will store the datasets in the google cloud. The main advantage of using this is, we retrieve the older versions of the data. 
 
 
-#### Data download:
-https://github.com/jrspatel/Stellar_Proj/blob/main/dag/dags/data/star_classification.csv
+
 
 
 #### Usage
