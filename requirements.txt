@@ -4,6 +4,7 @@ numpy
 pytest
 datetime
 dvc
+click
 aenum==3.1.15
 ai-api-client-sdk==1.28.0
 ai-core-sdk==1.22.3
@@ -18,7 +19,6 @@ cachetools==5.3.2
 certifi==2023.7.22
 cffi==1.16.0
 charset-normalizer==3.3.2
-click==8.0.4
 colorama==0.4.3
 cryptography==41.0.5
 Cython==3.0.5
