@@ -34,7 +34,9 @@ To keep of the track of the datasets that we work on, we use DVC. When we run th
 
 
 #### Data download:
-https://github.com/jrspatel/Stellar_Proj/blob/main/dag/dags/data/star_classification.csv
+https://storage.cloud.google.com/airflow-data-bucket-practice-group3/star_classification.csv
+
+Place the csv file in this path: Stellar_Proj/dag/dags/data
 
 
 #### Usage
