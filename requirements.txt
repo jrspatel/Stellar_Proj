@@ -2,6 +2,8 @@ pandas
 scikit-learn
 numpy
 pytest
+datetime
+dvc
 aenum==3.1.15
 ai-api-client-sdk==1.28.0
 ai-core-sdk==1.22.3

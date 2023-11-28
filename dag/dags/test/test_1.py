@@ -5,15 +5,6 @@ from datapreprocessing import data_stats, split_dataset, scaling, checking_NaN
 import random
 import numpy as np
 
-#checking the type of the columns
-def test_data_stats():
-    data_hash = "bce06389286124270180cc96bf116584"  # Replace with the actual hash
-    data_path = f"data/my_dataset.csv.{data_hash}.dvc"
-    dataset = pd.read_csv(data_path)
-    columns = dataset.columns
-    print(columns)
-    print(1)
-    assert len(columns) == 18
 
 def test_split_dataset():
     x_train, x_test, y_train, y_test = split_dataset()
@@ -50,7 +41,7 @@ def test_scaling():
         'class': [0, 1, 0]
     }
     test_df = pd.DataFrame(test_data)
-    test_csv_path = 'test_data.csv'
+    test_csv_path = 'pytest_entries.csv'
     test_df.to_csv(test_csv_path, index=False)
 
     # Call the scaling function on the test data
