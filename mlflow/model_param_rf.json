@@ -1,7 +1,0 @@
-{
-    "Random_Forest": {
-        "criterion": "entropy",
-        "max_depth": 20,
-        "n_estimators": 107
-    }
-}

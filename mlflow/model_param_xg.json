@@ -1,6 +1,0 @@
-{
-    "XGBoost": {
-        "min_sample_split": 107,
-        "n_estimators": 165
-    }
-}
