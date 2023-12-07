@@ -50,7 +50,7 @@ The dataset comprises 100,000 rows with 18 columns: 17 features and 1 class colu
 12. class: Object class, which can be categorized as a galaxy, star, or quasar object.
 
 Sample images of Galaxy, Star and Quasar
-![Alt Text](Stellar_Proj/assets/Galaxy_Star_Quasar.png)
+![Galaxy_Star_Quasar](https://github.com/jrspatel/Stellar_Proj/assets/49122008/fdb256e1-b885-4d5a-b950-8ed088a7bfb1)
 
 
 #### Data download<a id='download-dataset'></a>
@@ -147,7 +147,8 @@ params_rf = OrderedDict([
     ('criterion', hp.choice('criterion', ['gini', 'entropy'])),
     ('max_depth', hp.randint('max_depth', 10, 30))])
 ```
-![Alt Text](Stellar_Proj/assets/n_estimators.png)![Alt Text](Stellar_Proj/assets/max_depth.png)![Alt Text](Stellar_Proj/assets/criterion.png)
+![n_estimators](https://github.com/jrspatel/Stellar_Proj/assets/49122008/e24a2465-9932-4a84-89f2-93dc1a74a116)
+![max_depth](https://github.com/jrspatel/Stellar_Proj/assets/49122008/10b322a9-453e-48db-b622-ae8ce31c72aa)
 ![criterion](https://github.com/jrspatel/Stellar_Proj/assets/49122008/be1d38ca-c2c3-4101-aa8e-6dee9bed0bd1)
 
 
