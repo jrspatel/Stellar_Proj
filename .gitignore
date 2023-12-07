@@ -9,6 +9,7 @@ src/__pycache__
 src/decision_tree_model.py 
 src/logistic_model.py
 src/Xg_boost.py
+mlruns
 dags/test/__pycache__
 dag/logs
 dag/plugins
