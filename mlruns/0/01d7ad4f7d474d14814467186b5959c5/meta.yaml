@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/01d7ad4f7d474d14814467186b5959c5/artifacts
+deleted_time: 1701724145707
+end_time: 1701715828927
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 01d7ad4f7d474d14814467186b5959c5
+run_name: suave-bird-738
+run_uuid: 01d7ad4f7d474d14814467186b5959c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715793351
+status: 3
+tags: []
+user_id: buriburi

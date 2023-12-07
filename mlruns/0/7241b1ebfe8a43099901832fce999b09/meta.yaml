@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/7241b1ebfe8a43099901832fce999b09/artifacts
+deleted_time: 1701724145756
+end_time: 1701715111184
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7241b1ebfe8a43099901832fce999b09
+run_name: mercurial-carp-534
+run_uuid: 7241b1ebfe8a43099901832fce999b09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715056681
+status: 3
+tags: []
+user_id: buriburi

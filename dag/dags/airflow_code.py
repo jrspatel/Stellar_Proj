@@ -2,14 +2,12 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 import sys
-
 import os
-
 # Add the path to the directory containing the source
 sys.path.append('/path/to/directory/containing/source')
 
 from src.datapreprocessing import split_dataset, checking_NaN, data_stats, scaling, outlier_elimination
-
+from src.random_forest_model import rf_hyperoptimization 
 default_args = {
     'owner': 'Team 3',
     'retries': 5,
@@ -45,9 +43,7 @@ with DAG(
         task_id = 'stats_task',
         python_callable = data_stats,
         provide_context=True,
-        
         # In split_task
-
         dag = dag
     )
 
@@ -70,12 +66,22 @@ with DAG(
 
         dag = dag
     )
+    RF_optimization_task = PythonOperator(
+        task_id = 'RF_optimization_task',
+        python_callable = rf_hyperoptimization,
+        provide_context=True,
+        
+        # In split_task
+
+        dag = dag
+    )
 
     #import_data_task >> split_task
 
-    split_task >> check_nan_task >> stats_task >> scaling_task >> outlier_detection_task
+    split_task >> check_nan_task >> stats_task >> scaling_task >> outlier_detection_task >> RF_optimization_task
     # split_task >> stats_task
 
 # If this script is run directly, allow command-line interaction with the DAG
 if __name__ == "__main__":
     dag.cli()
+

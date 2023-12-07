@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/61e45cdb6c5b44f398777dadfd57c6be/artifacts
+end_time: 1701711996025
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61e45cdb6c5b44f398777dadfd57c6be
+run_name: serious-gull-151
+run_uuid: 61e45cdb6c5b44f398777dadfd57c6be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701711951806
+status: 3
+tags: []
+user_id: buriburi

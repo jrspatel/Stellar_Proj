@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/d1b17db737dd47b4b384ac335a2033d7/artifacts
+deleted_time: 1701724145775
+end_time: 1701714115953
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d1b17db737dd47b4b384ac335a2033d7
+run_name: unequaled-owl-600
+run_uuid: d1b17db737dd47b4b384ac335a2033d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701714112210
+status: 3
+tags: []
+user_id: buriburi

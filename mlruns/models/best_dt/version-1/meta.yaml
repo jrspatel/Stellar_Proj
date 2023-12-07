@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1701823493963
+current_stage: Staging
+description: null
+last_updated_timestamp: 1701894853511
+name: best_dt
+run_id: bd6e518472a544a78482a598b1d0290e
+run_link: null
+source: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/bd6e518472a544a78482a598b1d0290e/artifacts/dt-model
+status: READY
+status_message: null
+user_id: null
+version: 1

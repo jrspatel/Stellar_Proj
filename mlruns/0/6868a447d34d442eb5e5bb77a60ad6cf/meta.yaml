@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/6868a447d34d442eb5e5bb77a60ad6cf/artifacts
+end_time: 1701823485862
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6868a447d34d442eb5e5bb77a60ad6cf
+run_name: smiling-fish-373
+run_uuid: 6868a447d34d442eb5e5bb77a60ad6cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823484071
+status: 3
+tags: []
+user_id: buriburi

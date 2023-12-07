@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/389d0a744ec54f639660688759979228/artifacts
+deleted_time: 1701724145762
+end_time: 1701714161317
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 389d0a744ec54f639660688759979228
+run_name: nimble-ant-150
+run_uuid: 389d0a744ec54f639660688759979228
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701714158041
+status: 3
+tags: []
+user_id: buriburi

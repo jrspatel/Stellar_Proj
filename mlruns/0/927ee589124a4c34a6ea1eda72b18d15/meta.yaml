@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/927ee589124a4c34a6ea1eda72b18d15/artifacts
+deleted_time: 1701724145744
+end_time: 1701715272668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 927ee589124a4c34a6ea1eda72b18d15
+run_name: bemused-bee-728
+run_uuid: 927ee589124a4c34a6ea1eda72b18d15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715268943
+status: 3
+tags: []
+user_id: buriburi

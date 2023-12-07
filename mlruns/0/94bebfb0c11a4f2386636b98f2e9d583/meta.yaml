@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/94bebfb0c11a4f2386636b98f2e9d583/artifacts
+end_time: 1701711234906
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 94bebfb0c11a4f2386636b98f2e9d583
+run_name: dapper-crab-708
+run_uuid: 94bebfb0c11a4f2386636b98f2e9d583
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701711198773
+status: 3
+tags: []
+user_id: buriburi

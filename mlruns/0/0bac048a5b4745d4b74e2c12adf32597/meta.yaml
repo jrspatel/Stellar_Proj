@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/0bac048a5b4745d4b74e2c12adf32597/artifacts
+deleted_time: 1701724145685
+end_time: 1701716089450
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0bac048a5b4745d4b74e2c12adf32597
+run_name: gregarious-dog-52
+run_uuid: 0bac048a5b4745d4b74e2c12adf32597
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701716085671
+status: 3
+tags: []
+user_id: buriburi

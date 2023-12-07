@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/02e2302079ab4f24b764b9df7c19f740/artifacts
+deleted_time: 1701724145673
+end_time: 1701716124186
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 02e2302079ab4f24b764b9df7c19f740
+run_name: peaceful-skunk-540
+run_uuid: 02e2302079ab4f24b764b9df7c19f740
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701716120281
+status: 3
+tags: []
+user_id: buriburi

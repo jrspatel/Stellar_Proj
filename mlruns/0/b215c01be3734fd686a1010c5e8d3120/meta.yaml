@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/b215c01be3734fd686a1010c5e8d3120/artifacts
+end_time: 1701712039272
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b215c01be3734fd686a1010c5e8d3120
+run_name: beautiful-goat-209
+run_uuid: b215c01be3734fd686a1010c5e8d3120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701711996033
+status: 3
+tags: []
+user_id: buriburi

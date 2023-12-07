@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/201c3fa648f74b16963c67d3d165f7ff/artifacts
+end_time: 1701823411449
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 201c3fa648f74b16963c67d3d165f7ff
+run_name: luxuriant-whale-190
+run_uuid: 201c3fa648f74b16963c67d3d165f7ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823409477
+status: 3
+tags: []
+user_id: buriburi

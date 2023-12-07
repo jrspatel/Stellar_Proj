@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/a467cf0dc81c418290ae165308db13d0/artifacts
+end_time: 1701823465197
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a467cf0dc81c418290ae165308db13d0
+run_name: enthused-sloth-195
+run_uuid: a467cf0dc81c418290ae165308db13d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823463590
+status: 3
+tags: []
+user_id: buriburi

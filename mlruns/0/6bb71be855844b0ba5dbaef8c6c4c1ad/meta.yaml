@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/6bb71be855844b0ba5dbaef8c6c4c1ad/artifacts
+end_time: 1701823487673
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bb71be855844b0ba5dbaef8c6c4c1ad
+run_name: polite-hare-602
+run_uuid: 6bb71be855844b0ba5dbaef8c6c4c1ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823485868
+status: 3
+tags: []
+user_id: buriburi

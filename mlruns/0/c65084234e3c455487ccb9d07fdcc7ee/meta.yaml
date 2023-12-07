@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/c65084234e3c455487ccb9d07fdcc7ee/artifacts
+end_time: 1701821723644
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c65084234e3c455487ccb9d07fdcc7ee
+run_name: puzzled-moth-798
+run_uuid: c65084234e3c455487ccb9d07fdcc7ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701821720451
+status: 3
+tags: []
+user_id: buriburi

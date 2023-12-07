@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/b63f744b6a6143ce9035320e4aecf6bf/artifacts
+deleted_time: 1701724145703
+end_time: 1701715903119
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b63f744b6a6143ce9035320e4aecf6bf
+run_name: dazzling-ram-15
+run_uuid: b63f744b6a6143ce9035320e4aecf6bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715878088
+status: 3
+tags: []
+user_id: buriburi

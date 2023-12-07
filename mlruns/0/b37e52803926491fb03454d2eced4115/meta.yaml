@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/b37e52803926491fb03454d2eced4115/artifacts
+end_time: 1701823417019
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b37e52803926491fb03454d2eced4115
+run_name: capricious-goat-392
+run_uuid: b37e52803926491fb03454d2eced4115
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823415468
+status: 3
+tags: []
+user_id: buriburi

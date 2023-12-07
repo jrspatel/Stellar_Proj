@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/c66fc9b04dd4441f9888e14a99957d67/artifacts
+deleted_time: 1701724145750
+end_time: 1701715257706
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c66fc9b04dd4441f9888e14a99957d67
+run_name: serious-mule-292
+run_uuid: c66fc9b04dd4441f9888e14a99957d67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715253958
+status: 3
+tags: []
+user_id: buriburi

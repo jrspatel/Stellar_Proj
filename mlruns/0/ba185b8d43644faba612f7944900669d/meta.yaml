@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/ba185b8d43644faba612f7944900669d/artifacts
+deleted_time: 1701724145652
+end_time: 1701722899691
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ba185b8d43644faba612f7944900669d
+run_name: casual-goose-178
+run_uuid: ba185b8d43644faba612f7944900669d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701722899676
+status: 4
+tags: []
+user_id: buriburi

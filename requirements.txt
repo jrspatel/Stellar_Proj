@@ -4,6 +4,7 @@ numpy
 pytest
 datetime
 dvc
+mlflow
 click
 aenum==3.1.15
 ai-api-client-sdk==1.28.0
@@ -25,7 +26,8 @@ Cython==3.0.5
 dill==0.3.7
 distro==1.8.0
 docutils==0.15.2
-#dulwich==0.20.50
+dulwich
+hyperopt
 feedparser==6.0.10
 gcloud==0.18.3
 google-api-core==2.14.0

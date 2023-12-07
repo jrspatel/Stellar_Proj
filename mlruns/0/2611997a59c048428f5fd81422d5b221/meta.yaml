@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/2611997a59c048428f5fd81422d5b221/artifacts
+deleted_time: 1701724145671
+end_time: 1701716135924
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2611997a59c048428f5fd81422d5b221
+run_name: likeable-fawn-714
+run_uuid: 2611997a59c048428f5fd81422d5b221
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701716131929
+status: 3
+tags: []
+user_id: buriburi

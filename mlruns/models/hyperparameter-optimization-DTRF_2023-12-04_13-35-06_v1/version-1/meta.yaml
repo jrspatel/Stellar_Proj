@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1701714909964
+current_stage: None
+description: null
+last_updated_timestamp: 1701714909964
+name: hyperparameter-optimization-DTRF_2023-12-04_13-35-06_v1
+run_id: ed3af4ea6009404c94356e39b4bd55b4
+run_link: null
+source: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/ed3af4ea6009404c94356e39b4bd55b4/artifacts/sklearnRF
+status: READY
+status_message: null
+user_id: null
+version: 1

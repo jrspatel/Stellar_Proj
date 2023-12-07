@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/961d33a7e1684516bdb317c48830febc/artifacts
+end_time: 1701823457065
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 961d33a7e1684516bdb317c48830febc
+run_name: angry-skink-670
+run_uuid: 961d33a7e1684516bdb317c48830febc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823455201
+status: 3
+tags: []
+user_id: buriburi

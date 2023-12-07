@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/7dfd388dab7c4e2b9ebc713a8493b560/artifacts
+end_time: 1701711284226
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7dfd388dab7c4e2b9ebc713a8493b560
+run_name: funny-owl-1
+run_uuid: 7dfd388dab7c4e2b9ebc713a8493b560
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701711234915
+status: 3
+tags: []
+user_id: buriburi

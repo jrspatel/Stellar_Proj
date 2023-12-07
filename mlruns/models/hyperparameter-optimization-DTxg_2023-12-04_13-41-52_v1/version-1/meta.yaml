@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1701715314195
+current_stage: None
+description: null
+last_updated_timestamp: 1701715314195
+name: hyperparameter-optimization-DTxg_2023-12-04_13-41-52_v1
+run_id: 39be4d843b1a46d0bde562b7ca2d32e3
+run_link: null
+source: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/39be4d843b1a46d0bde562b7ca2d32e3/artifacts/sklearnxg
+status: READY
+status_message: null
+user_id: null
+version: 1

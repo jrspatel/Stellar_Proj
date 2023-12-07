@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/0045cc90a66f4182a3b2bbd9b3b56ea9/artifacts
+deleted_time: 1701724145745
+end_time: 1701715268936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0045cc90a66f4182a3b2bbd9b3b56ea9
+run_name: beautiful-bass-813
+run_uuid: 0045cc90a66f4182a3b2bbd9b3b56ea9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715265209
+status: 3
+tags: []
+user_id: buriburi

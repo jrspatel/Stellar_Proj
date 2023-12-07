@@ -1,0 +1,27 @@
+artifact_path: sklearnDT
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.1
+mlflow_version: 2.7.1
+model_uuid: dbcdfa6fc5794582b2ce14a841699c7c
+run_id: f7327852f0944f709929e519e8adfb43
+signature:
+  inputs: '[{"type": "double", "name": "alpha"}, {"type": "double", "name": "delta"},
+    {"type": "double", "name": "u"}, {"type": "double", "name": "g"}, {"type": "double",
+    "name": "r"}, {"type": "double", "name": "i"}, {"type": "double", "name": "z"},
+    {"type": "long", "name": "cam_col"}, {"type": "double", "name": "redshift"}, {"type":
+    "long", "name": "plate"}, {"type": "long", "name": "MJD"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2023-12-04 18:54:54.906593'

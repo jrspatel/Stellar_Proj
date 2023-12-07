@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/5a21daaa0aef4cce89265674645d9925/artifacts
+end_time: 1701711110033
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a21daaa0aef4cce89265674645d9925
+run_name: chill-squirrel-787
+run_uuid: 5a21daaa0aef4cce89265674645d9925
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701711072771
+status: 3
+tags: []
+user_id: buriburi

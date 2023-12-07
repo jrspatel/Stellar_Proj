@@ -12,7 +12,7 @@ from sklearn.preprocessing import MinMaxScaler
 
   
 def data_stats():
-    dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), "../data/X_train.csv"))
+    dataset = pd.resoud_csv(os.path.join(os.path.dirname(__file__), "../data/X_train.csv"))
     variable_stats = dataset.describe()
     return variable_stats
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/076f18dd68f349889039140837b72f28/artifacts
+end_time: 1701823471108
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 076f18dd68f349889039140837b72f28
+run_name: trusting-moth-842
+run_uuid: 076f18dd68f349889039140837b72f28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823468321
+status: 3
+tags: []
+user_id: buriburi

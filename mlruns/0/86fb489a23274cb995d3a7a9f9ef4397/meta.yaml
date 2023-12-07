@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/86fb489a23274cb995d3a7a9f9ef4397/artifacts
+deleted_time: 1701724145664
+end_time: 1701719570178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 86fb489a23274cb995d3a7a9f9ef4397
+run_name: nebulous-lark-237
+run_uuid: 86fb489a23274cb995d3a7a9f9ef4397
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701719532820
+status: 3
+tags: []
+user_id: buriburi

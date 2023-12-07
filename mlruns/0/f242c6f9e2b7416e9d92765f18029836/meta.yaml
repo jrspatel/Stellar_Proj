@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/f242c6f9e2b7416e9d92765f18029836/artifacts
+deleted_time: 1701724145779
+end_time: 1701714101035
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f242c6f9e2b7416e9d92765f18029836
+run_name: loud-trout-73
+run_uuid: f242c6f9e2b7416e9d92765f18029836
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701714097294
+status: 3
+tags: []
+user_id: buriburi

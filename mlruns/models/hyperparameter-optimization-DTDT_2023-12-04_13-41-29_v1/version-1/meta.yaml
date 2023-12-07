@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1701715291437
+current_stage: None
+description: null
+last_updated_timestamp: 1701715291437
+name: hyperparameter-optimization-DTDT_2023-12-04_13-41-29_v1
+run_id: 521ab62006d94e248f490c2cb6708684
+run_link: null
+source: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/521ab62006d94e248f490c2cb6708684/artifacts/sklearnDT
+status: READY
+status_message: null
+user_id: null
+version: 1

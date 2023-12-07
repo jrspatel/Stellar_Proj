@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/bb38dbc2237a43d5849f448c845e8fcf/artifacts
+end_time: 1701891057671
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bb38dbc2237a43d5849f448c845e8fcf
+run_name: unequaled-eel-552
+run_uuid: bb38dbc2237a43d5849f448c845e8fcf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701891054938
+status: 3
+tags: []
+user_id: buriburi

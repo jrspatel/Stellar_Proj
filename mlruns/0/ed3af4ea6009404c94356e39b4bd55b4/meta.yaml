@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/ed3af4ea6009404c94356e39b4bd55b4/artifacts
+deleted_time: 1701724145762
+end_time: 1701714909967
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ed3af4ea6009404c94356e39b4bd55b4
+run_name: classy-sheep-898
+run_uuid: ed3af4ea6009404c94356e39b4bd55b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701714868707
+status: 3
+tags: []
+user_id: buriburi

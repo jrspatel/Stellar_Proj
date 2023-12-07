@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/d35d4c56325643eca37a9c698059342c/artifacts
+end_time: 1701823455195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d35d4c56325643eca37a9c698059342c
+run_name: adventurous-deer-170
+run_uuid: d35d4c56325643eca37a9c698059342c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823453132
+status: 3
+tags: []
+user_id: buriburi

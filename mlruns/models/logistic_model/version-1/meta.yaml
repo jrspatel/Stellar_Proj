@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1701724340338
+current_stage: None
+description: ''
+last_updated_timestamp: 1701724340338
+name: logistic_model
+run_id: 46ab0ab83b884dbd984f57a1230b02d3
+run_link: ''
+source: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/46ab0ab83b884dbd984f57a1230b02d3/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 1

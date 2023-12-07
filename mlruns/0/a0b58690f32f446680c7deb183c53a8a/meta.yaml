@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/a0b58690f32f446680c7deb183c53a8a/artifacts
+deleted_time: 1701724145734
+end_time: 1701715299026
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a0b58690f32f446680c7deb183c53a8a
+run_name: dazzling-moth-271
+run_uuid: a0b58690f32f446680c7deb183c53a8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715295581
+status: 3
+tags: []
+user_id: buriburi

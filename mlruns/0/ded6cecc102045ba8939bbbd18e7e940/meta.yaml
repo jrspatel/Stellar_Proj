@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/ded6cecc102045ba8939bbbd18e7e940/artifacts
+end_time: 1701823424785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ded6cecc102045ba8939bbbd18e7e940
+run_name: treasured-newt-591
+run_uuid: ded6cecc102045ba8939bbbd18e7e940
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823422735
+status: 3
+tags: []
+user_id: buriburi

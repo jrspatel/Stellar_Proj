@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/f5147afc47bc42cd933f6906a871404b/artifacts
+deleted_time: 1701724145786
+end_time: 1701714042703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f5147afc47bc42cd933f6906a871404b
+run_name: classy-rook-708
+run_uuid: f5147afc47bc42cd933f6906a871404b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701713997144
+status: 3
+tags: []
+user_id: buriburi

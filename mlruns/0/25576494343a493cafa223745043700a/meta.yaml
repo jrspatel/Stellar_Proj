@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/25576494343a493cafa223745043700a/artifacts
+deleted_time: 1701724145716
+end_time: 1701715317829
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 25576494343a493cafa223745043700a
+run_name: lyrical-whale-166
+run_uuid: 25576494343a493cafa223745043700a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715314205
+status: 3
+tags: []
+user_id: buriburi

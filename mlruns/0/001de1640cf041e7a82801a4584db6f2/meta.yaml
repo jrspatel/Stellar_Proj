@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/001de1640cf041e7a82801a4584db6f2/artifacts
+deleted_time: 1701724145640
+end_time: 1701723466234
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 001de1640cf041e7a82801a4584db6f2
+run_name: intrigued-lynx-91
+run_uuid: 001de1640cf041e7a82801a4584db6f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701723466218
+status: 4
+tags: []
+user_id: buriburi

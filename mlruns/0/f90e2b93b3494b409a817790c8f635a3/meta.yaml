@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/f90e2b93b3494b409a817790c8f635a3/artifacts
+deleted_time: 1701724145733
+end_time: 1701715303068
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f90e2b93b3494b409a817790c8f635a3
+run_name: wistful-wren-588
+run_uuid: f90e2b93b3494b409a817790c8f635a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715299035
+status: 3
+tags: []
+user_id: buriburi

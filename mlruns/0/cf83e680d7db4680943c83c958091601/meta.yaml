@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/cf83e680d7db4680943c83c958091601/artifacts
+deleted_time: 1701724145710
+end_time: 1701715328886
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: cf83e680d7db4680943c83c958091601
+run_name: blushing-mare-506
+run_uuid: cf83e680d7db4680943c83c958091601
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701715325516
+status: 3
+tags: []
+user_id: buriburi

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/af050e1f03184f2d99272d32f9922b06/artifacts
+end_time: 1701823415459
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af050e1f03184f2d99272d32f9922b06
+run_name: enchanting-lynx-202
+run_uuid: af050e1f03184f2d99272d32f9922b06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823413194
+status: 3
+tags: []
+user_id: buriburi

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/5b5b17635cbc4fa98e16fcdcb7ee04f2/artifacts
+deleted_time: 1701724145789
+end_time: 1701713903972
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 5b5b17635cbc4fa98e16fcdcb7ee04f2
+run_name: beautiful-goose-949
+run_uuid: 5b5b17635cbc4fa98e16fcdcb7ee04f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701713859432
+status: 3
+tags: []
+user_id: buriburi

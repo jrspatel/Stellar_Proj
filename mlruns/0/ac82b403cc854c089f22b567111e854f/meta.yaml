@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/buriburi/Desktop/Mlflow_new/Stellar_Proj/mlruns/0/ac82b403cc854c089f22b567111e854f/artifacts
+end_time: 1701823466750
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac82b403cc854c089f22b567111e854f
+run_name: secretive-bug-160
+run_uuid: ac82b403cc854c089f22b567111e854f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701823465204
+status: 3
+tags: []
+user_id: buriburi
