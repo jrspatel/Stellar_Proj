@@ -50,7 +50,7 @@ The dataset comprises 100,000 rows with 18 columns: 17 features and 1 class colu
 12. class: Object class, which can be categorized as a galaxy, star, or quasar object.
 
 Sample images of Galaxy, Star and Quasar
-![Image](Stellar_Proj/assets/Galaxy_Star_Quasar.png)
+![Alt Text](Stellar_Proj/assets/Galaxy_Star_Quasar.png)
 
 
 #### Data download<a id='download-dataset'></a>
@@ -92,14 +92,6 @@ Run the load_data.py file to download the dataset into the directory
 
 Involves processing the given data to ensure the data is clean, free from outliers and Nan values,  avoiding the unnecessary features, making sure the data distribution is normal and splitting the data for training, testing and validation. Here few custom functions are written to pre-process the given data. We have created logs including the time, date of when the process has been initiated and when it got concluded along with the description of what function is called.
 
-Here is a simple flow chart depicting the data pre-processing flow
-
-```mermaid
-graph TD;
-    Split Data-->Remove NaN
-    Remove NaN-->Store Statistics;
-    Store Statistics-->Scale Data;
-```
 
 #### Models (Performance Metrics)<a id='models-'></a>
 
@@ -154,7 +146,7 @@ params_rf = OrderedDict([
     ('criterion', hp.choice('criterion', ['gini', 'entropy'])),
     ('max_depth', hp.randint('max_depth', 10, 30))])
 ```
-![Image](Stellar_Proj/assets/n_estimators.png)![Image](Stellar_Proj/assets/max_depth.png)![Image](Stellar_Proj/assets/criterion.png)
+![Alt Text](Stellar_Proj/assets/n_estimators.png)![Alt Text](Stellar_Proj/assets/max_depth.png)![Alt Text](Stellar_Proj/assets/criterion.png)
 
 
 #### Results<a id='results-'></a>
