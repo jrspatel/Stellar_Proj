@@ -1,0 +1,6 @@
+{
+    "decision_tree": {
+        "max_depth": 159,
+        "min_samples_split": 30
+    }
+}
