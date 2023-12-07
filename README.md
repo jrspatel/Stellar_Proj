@@ -56,7 +56,8 @@ Sample images of Galaxy, Star and Quasar
 #### Data download<a id='download-dataset'></a>
 
 <pre>
-Dataset              : <a href=https://storage.cloud.google.com/airflow-data-bucket-practice-group3/star_classification.csv>Stellar Classification Dataset</a>   
+Dataset              : <a href=https://storage.cloud.google.com/airflow-data-bucket-practice-group3/star_classification.csv>Stellar Classification Dataset</a>  
+    
 </pre>
 
 
@@ -147,6 +148,7 @@ params_rf = OrderedDict([
     ('max_depth', hp.randint('max_depth', 10, 30))])
 ```
 ![Alt Text](Stellar_Proj/assets/n_estimators.png)![Alt Text](Stellar_Proj/assets/max_depth.png)![Alt Text](Stellar_Proj/assets/criterion.png)
+![criterion](https://github.com/jrspatel/Stellar_Proj/assets/49122008/be1d38ca-c2c3-4101-aa8e-6dee9bed0bd1)
 
 
 #### Results<a id='results-'></a>
