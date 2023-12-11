@@ -4,22 +4,7 @@ import pytest
 from datapreprocessing import data_stats, scaling, checking_NaN
 import random
 import numpy as np
-import gcsfs
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\Users\Vdhya\Downloads\stellarclassification-3587e05b548a.json"
-
-# Initialize a gcsfs file system object
-fs = gcsfs.GCSFileSystem(project='stellarclassification')
-
-def test_split_dataset():
-    X_train_path = "gs://stellarclassification_bucket/data/train/X_train.csv"
-    with fs.open(X_train_path, 'r') as f:
-        X_train = pd.read_csv(f)
-    X_test_path = "gs://stellarclassification_bucket/data/train/X_train.csv"
-    with fs.open(X_test_path, 'r') as f:
-        X_test = pd.read_csv(f)
-    assert x_train.shape == (80000, 18) 
-    assert X_test.shape == (20000, 18)
 
 def test_data_stat():
     df = data_stats()
