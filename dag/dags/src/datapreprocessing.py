@@ -118,4 +118,12 @@ def outlier_elimination():
         print("Outlier is completed")    
     #dataset_no_outliers.to_csv(os.path.join(os.path.dirname(__file__), "../data/X_train.csv"), index=False)
     return 1
+  
+def main():
+    data_stats()
+    split_dataset()
+    checking_NaN()
+    scaling()
 
+if __name__ == '__main__':
+    main()
