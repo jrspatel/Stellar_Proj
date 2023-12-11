@@ -1,4 +1,5 @@
 environment/
+Stellar_Proj/.gitignore
 Stellar_Proj/dag/dags/data/star_classification.csv
 Stellar_Proj/dag/dags/data/X_train.csv
 Stellar_Proj/dag/dags/data/X_test.csv
@@ -17,4 +18,3 @@ Stellar_Proj/mlflow
 Stellar_Proj/.env
 Stellar_Proj/dag/config
 Stellar_Proj/dag/dags/src/__pycache__
-E:\stellar_airflow_cloud\Stellar_Proj\.env
