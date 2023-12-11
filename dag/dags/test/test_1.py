@@ -6,10 +6,10 @@ import random
 import numpy as np
 import gcsfs
 
-
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\Users\Vdhya\Downloads\stellarclassification-3587e05b548a.json"
 
 # Initialize a gcsfs file system object
-fs = gcsfs.GCSFileSystem(project='stellarclassification', token='stellarclassification-3587e05b548a.json')
+fs = gcsfs.GCSFileSystem(project='stellarclassification')
 
 def test_split_dataset():
     X_train_path = "gs://stellarclassification_bucket/data/train/X_train.csv"
