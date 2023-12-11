@@ -8,12 +8,12 @@ import numpy as np
 
 def test_data_stat():
     df = data_stats()
-    assert len(df.columns) <= 18
+    assert len(df.columns) <= 3
 
-# def test_check_nan():
-#     df = checking_NaN()
-#     a = len(df.isna().any())
-#     assert a > 0
+def test_check_nan():
+    df = checking_NaN()
+    a = len(df.isna().any())
+    assert a > 0
 
 # def test_data_stats_1():
 #     df = data_stats()
@@ -29,22 +29,7 @@ def test_data_stat():
 
 def test_scaling():
     # Create a temporary test CSV file
-
-    test_data = {
-        'feature1': [1, 2, 3],
-        'feature2': [4, 5, 6],
-        'class': [0, 1, 0]
-    }
-    test_df = pd.DataFrame(test_data)
-    test_csv_path = 'pytest_entries.csv'
-    test_df.to_csv(test_csv_path, index=False)
-
-    # Call the scaling function on the test data
-    scaling(test_csv_path)
-
-    # Read the scaled data from the CSV file
-    scaled_data = pd.read_csv(test_csv_path)
-
+    scaled_data = scaling()
     # Assertions to check if the scaling is applied correctly
     assert 'class' in scaled_data.columns, "Class column is missing in the scaled data"
     assert scaled_data.shape == (3, 3), "Scaled data has incorrect shape"
