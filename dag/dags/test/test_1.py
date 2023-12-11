@@ -7,8 +7,9 @@ import numpy as np
 import gcsfs
 
 
+
 # Initialize a gcsfs file system object
-fs = gcsfs.GCSFileSystem(project='stellarclassification', token='"C:\Users\Vdhya\Downloads\stellarclassification-3587e05b548a.json"')
+fs = gcsfs.GCSFileSystem(project='stellarclassification', token="C:\Users\Vdhya\Downloads\stellarclassification-3587e05b548a.json")
 
 def test_split_dataset():
     X_train_path = "gs://stellarclassification_bucket/data/train/X_train.csv"
