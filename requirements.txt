@@ -7,8 +7,8 @@ dvc
 mlflow
 click
 gcsfs
-imblearn
-python
+imbalanced-learn==0.8.0
+# python
 unittest
 aenum==3.1.15
 ai-api-client-sdk==1.28.0
@@ -69,8 +69,8 @@ pyhumps==3.8.0
 PyJWT==2.8.0
 pylint==3.0.2
 pyparsing==3.1.1
-# python-dateutil==2.8.2
-# python-dotenv==0.19.2
+python-dateutil==2.8.2
+python-dotenv==0.19.2
 pytz==2023.3.post1
 PyYAML==5.4.1
 requests==2.31.0
