@@ -7,7 +7,7 @@ dvc
 mlflow
 click
 gcsfs
-python
+python>=3.9
 imblearn
 unittest
 aenum==3.1.15
